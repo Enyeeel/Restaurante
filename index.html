@@ -4,41 +4,96 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Nuestra Página de Amor</title>
-  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <header>
-    <h1>María &amp; Juan</h1>
-    <p>Una historia de amor que crece cada día</p>
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="#" class="logo">María &amp; Juan</a>
+      <ul class="nav-links">
+        <li><a href="#historia">Historia</a></li>
+        <li><a href="#galeria">Galería</a></li>
+        <li><a href="#mensajes">Dedicatorias</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <header class="hero">
+    <div class="container hero-content">
+      <h1>Una historia de amor que crece cada día</h1>
+      <a href="#historia" class="btn">Nuestra Historia</a>
+    </div>
   </header>
 
-  <section id="historia" class="timeline">
-    <h2>Nuestra Historia</h2>
-    <!-- Aquí tu timeline -->
+  <!-- SECCIÓN: Nuestra Historia -->
+  <section id="historia" class="section">
+    <div class="container">
+      <h2>Nuestra Historia</h2>
+      <!-- Ejemplo de timeline -->
+      <ul class="timeline">
+        <li>
+          <span class="fecha">01/01/2020</span>
+          <p>Nos conocimos en la universidad.</p>
+        </li>
+        <li>
+          <span class="fecha">14/02/2021</span>
+          <p>Primera cita inolvidable.</p>
+        </li>
+        <!-- Añade más ítems -->
+      </ul>
+    </div>
   </section>
 
-  <section id="galeria" class="gallery">
-    <h2>Galería de Recuerdos</h2>
-    <!-- Tus fotos en grid -->
+  <!-- SECCIÓN: Galería de Recuerdos -->
+  <section id="galeria" class="section bg-light">
+    <div class="container">
+      <h2>Galería de Recuerdos</h2>
+      <div class="gallery-grid">
+        <img src="ruta/a/tufoto1.jpg" alt="Recuerdo 1">
+        <img src="ruta/a/tufoto2.jpg" alt="Recuerdo 2">
+        <img src="ruta/a/tufoto3.jpg" alt="Recuerdo 3">
+        <!-- Más imágenes -->
+      </div>
+    </div>
   </section>
 
-  <section id="mensajes" class="quotes">
-    <h2>Dedicatorias</h2>
-    <!-- Citas románticas -->
+  <!-- SECCIÓN: Dedicatorias -->
+  <section id="mensajes" class="section">
+    <div class="container">
+      <h2>Dedicatorias</h2>
+      <blockquote>
+        “Cada día a tu lado es mi mejor regalo.”  
+        <footer>— Juan</footer>
+      </blockquote>
+      <blockquote>
+        “Eres mi hogar.”  
+        <footer>— María</footer>
+      </blockquote>
+      <!-- Más citas -->
+    </div>
   </section>
 
-  <section id="contacto">
-    <h2>Déjame un mensaje</h2>
-    <form>
-      <textarea placeholder="Tu mensaje…" rows="4"></textarea><br>
-      <button type="submit">Enviar</button>
-    </form>
+  <!-- SECCIÓN: Contacto -->
+  <section id="contacto" class="section bg-light">
+    <div class="container">
+      <h2>Déjame un mensaje</h2>
+      <form class="contact-form">
+        <textarea placeholder="Tu mensaje…" rows="4"></textarea>
+        <button type="submit" class="btn">Enviar</button>
+      </form>
+    </div>
   </section>
 
-  <footer>
-    © 2025 María y Juan — Con amor
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      © 2025 María &amp; Juan — Con todo mi ❤️
+    </div>
   </footer>
 
 </body>
