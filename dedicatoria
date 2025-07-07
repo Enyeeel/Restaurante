@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dedicatorias – Amor</title>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="logo">María &amp; Juan</a>
+      <ul class="nav-links">
+        <li><a href="historia.html">Historia</a></li>
+        <li><a href="galeria.html">Galería</a></li>
+        <li><a href="dedicatorias.html" class="active">Dedicatorias</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="section">
+    <div class="container">
+      <h2>Dedicatorias</h2>
+      <blockquote>
+        “Eres mi sol en días nublados.”<br>
+        <footer>— Juan</footer>
+      </blockquote>
+      <blockquote>
+        “Cada risa contigo es mi canción favorita.”<br>
+        <footer>— María</footer>
+      </blockquote>
+      <!-- … más dedicatorias -->
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">© 2025 María &amp; Juan</div>
+  </footer>
+
+</body>
+</html>
