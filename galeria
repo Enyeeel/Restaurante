@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galería – Amor</title>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="logo">María &amp; Juan</a>
+      <ul class="nav-links">
+        <li><a href="historia.html">Historia</a></li>
+        <li><a href="galeria.html" class="active">Galería</a></li>
+        <li><a href="dedicatorias.html">Dedicatorias</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="section bg-light">
+    <div class="container">
+      <h2>Galería de Recuerdos</h2>
+      <div class="gallery-grid">
+        <img src="img/recuerdo1.jpg" alt="Recuerdo 1">
+        <img src="img/recuerdo2.jpg" alt="Recuerdo 2">
+        <img src="img/recuerdo3.jpg" alt="Recuerdo 3">
+        <!-- … -->
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">© 2025 María &amp; Juan</div>
+  </footer>
+
+</body>
+</html>
